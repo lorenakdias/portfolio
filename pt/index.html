@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Portfólio de Lorena Kapitzky: painel de gestão integrado ao ERP, time de agentes de IA, infraestrutura segura, análise SQL e automação.">
+<meta name="description" content="Portfólio de Lorena Kapitzky: IA aplicada a negócios. Finanças, dados e agentes de IA: painel integrado ao ERP, time de agentes de IA, automação de auditoria com Python e Power BI.">
 <title>Portfólio Lorena Kapitzky</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -109,9 +109,9 @@ svg text{font-family:var(--body)}
   <div>
     <div class="eyebrow">Portfólio · 2026</div>
     <h1 style="margin-top:12px">Lorena Kapitzky</h1>
-    <p class="lead">Construo sistemas de gestão para empresas reais e os times de agentes de IA que desenvolvem esses sistemas.</p>
+    <p class="lead">Trabalho no estilo Forward Deployed Engineer: entro na operação, entendo o problema do negócio e entrego o sistema funcionando. Finanças, dados e agentes de IA.</p>
     <div class="tags">
-      <span class="tag">Python · FastAPI</span><span class="tag">Next.js · TypeScript</span><span class="tag">SQL · MySQL</span><span class="tag">Agentes de IA</span><span class="tag">Docker · Linux</span>
+      <span class="tag">Python · FastAPI</span><span class="tag">Next.js · TypeScript</span><span class="tag">SQL · MySQL</span><span class="tag">Agentes de IA</span><span class="tag">Power BI</span><span class="tag">Auditoria e controles</span>
     </div>
   </div>
   <div class="facts" aria-label="Números do projeto principal">
@@ -333,11 +333,49 @@ svg text{font-family:var(--body)}
   </figure>
 </section>
 
+<!-- 7 Audit automation -->
+<section class="proj">
+  <div class="txt">
+    <div class="eyebrow">Automação de auditoria · Grant Thornton</div>
+    <h2>De 180 páginas de PDF a um dashboard em 20 minutos</h2>
+    <p>Todo mês chegavam 3 PDFs de cerca de 60 páginas cada com os dados do contrato de uma empresa terceirizada. Extrair à mão levava 2 dias.</p>
+    <ul><li>Criei um código em Python que extrai os dados automaticamente: 2 dias viraram 20 minutos.</li><li>Responsável única pelo dashboard do Power BI da reunião mensal com stakeholders: extrapolação do contrato em valor ou em horas e horas trabalhadas acima do permitido.</li><li>Auditava todo mês mais de 30 comprovantes de despesas e contratos de serviços.</li><li>Em uma construtora, identifiquei hora extra da equipe de obra paga com adicional de 100%, o que levou à redução para 50%.</li></ul>
+    <div class="stack"><span>Python</span><span>Extração de PDF</span><span>Power BI</span><span>Auditoria interna</span></div>
+  </div>
+  <figure>
+    <div class="diagram">
+      <svg viewBox="0 0 640 300" role="img" aria-label="Fluxo mensal: 3 PDFs de cerca de 60 páginas entram num código em Python, que alimenta um dashboard do Power BI usado na reunião com stakeholders. O tempo caiu de 2 dias para 20 minutos">
+        <defs><marker id="ar3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" style="fill:var(--accent)"/></marker></defs>
+        <g style="stroke:var(--accent);stroke-width:1.6;fill:none" marker-end="url(#ar3)">
+          <path d="M150 80 H178"/><path d="M310 80 H338"/><path d="M470 80 H498"/>
+        </g>
+        <rect x="20" y="40" width="130" height="80" rx="8" style="fill:var(--amber-soft);stroke:var(--amber)"/>
+        <text x="85" y="72" text-anchor="middle" style="fill:var(--ink);font-size:13px;font-weight:600">3 PDFs</text>
+        <text x="85" y="92" text-anchor="middle" style="fill:var(--muted);font-size:11px">~60 páginas cada</text>
+        <rect x="180" y="40" width="130" height="80" rx="8" style="fill:var(--accent-soft);stroke:var(--accent)"/>
+        <text x="245" y="72" text-anchor="middle" style="fill:var(--ink);font-size:13px;font-weight:600">Python</text>
+        <text x="245" y="92" text-anchor="middle" style="fill:var(--muted);font-size:11px">extração automática</text>
+        <rect x="340" y="40" width="130" height="80" rx="8" style="fill:var(--surface);stroke:var(--line)"/>
+        <text x="405" y="72" text-anchor="middle" style="fill:var(--ink);font-size:13px;font-weight:600">Power BI</text>
+        <text x="405" y="92" text-anchor="middle" style="fill:var(--muted);font-size:11px">dashboard</text>
+        <rect x="500" y="40" width="120" height="80" rx="8" style="fill:var(--ink)"/>
+        <text x="560" y="72" text-anchor="middle" style="fill:var(--bg);font-size:13px;font-weight:600">Reunião</text>
+        <text x="560" y="92" text-anchor="middle" style="fill:var(--bg);font-size:11px;opacity:.8">stakeholders</text>
+        <text x="320" y="200" text-anchor="middle" style="fill:var(--ink);font-family:var(--display);font-size:40px;font-weight:800">2 dias → 20 min</text>
+        <text x="320" y="232" text-anchor="middle" style="fill:var(--muted);font-size:12px">tempo para extrair os dados do mês</text>
+      </svg>
+    </div>
+    <figcaption>Fluxo mensal simplificado. Nenhum dado de cliente aparece aqui.</figcaption>
+  </figure>
+</section>
+
 <section class="skills" aria-label="Competências">
   <div><h3>Desenvolvimento</h3><p>Python, FastAPI, TypeScript, Next.js, React, APIs REST, testes automatizados, Git e CI.</p></div>
   <div><h3>Dados</h3><p>SQL, MySQL, SQLite, integração com ERP, modelagem e análise de dados, dashboards.</p></div>
   <div><h3>IA</h3><p>Orquestração de agentes, engenharia de prompt, escolha de modelos por custo, revisão de código gerado por IA.</p></div>
   <div><h3>Infra e segurança</h3><p>Docker, Linux, Tailscale, firewall, menor privilégio, backup e auditoria de vazamentos.</p></div>
+<div><h3>Finanças e auditoria</h3><p>Auditoria interna, controles internos, avaliação de riscos, risco de crédito, contas a receber, licitações públicas.</p></div>
+  <div><h3>Formação contínua</h3><p>Agentic AI (DeepLearning.AI), Python com IA (Udemy), Forward Deployed Engineer (Udemy, em andamento).</p></div>
 </section>
 
 <p class="note">Todas as telas e mensagens desta página usam dados fictícios. Os sistemas reais rodam em rede privada e contêm dados confidenciais da empresa.</p>

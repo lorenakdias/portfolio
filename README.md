@@ -1,8 +1,8 @@
 # Lorena Kapitzky — Portfolio
 
-**EN** · Systems and AI agents developer. I build management systems for real businesses, and the AI agent teams that develop them. Background in finance and internal audit.
+**EN** · Applied AI for business. I work the Forward Deployed Engineer way: I get inside the operation, understand the business problem and ship a working system. Finance, data and AI agents, with 6 years in finance and internal audit (Grant Thornton Brazil).
 
-**PT-BR** · Desenvolvedora de sistemas e agentes de IA. Construo sistemas de gestão para empresas reais e os times de agentes de IA que os desenvolvem. Formação em finanças e auditoria interna.
+**PT-BR** · IA aplicada a negócios. Trabalho no estilo Forward Deployed Engineer: entro na operação, entendo o problema do negócio e entrego o sistema funcionando. Finanças, dados e agentes de IA, com 6 anos em finanças e auditoria interna (Grant Thornton Brasil).
 
 - Site (EN): https://lorenakdias.github.io/portfolio/
 - Site (PT-BR): https://lorenakdias.github.io/portfolio/pt/
@@ -18,6 +18,7 @@
 | 3 | **Self-hosted, nothing exposed to the internet.** Private-network access only, firewall, key-only SSH, read-only database user, backups. | Docker, Tailscale, ufw, Linux |
 | 4 | **ERP data analysis in SQL.** Fiscal-code (CFOP) mapping to separate sales from other outflows, query plans, legacy data handling. | MySQL, DBeaver |
 | 5 | **Public tender radar.** Daily job on Brazil's national procurement portal (PNCP), filtered by product, posted on Slack. | PNCP, scheduling, Slack |
+| 6 | **Audit automation (Grant Thornton).** Python script that extracts the data from 3 monthly PDFs of about 60 pages each, cutting the work from 2 days to 20 minutes, feeding a Power BI dashboard I solely built for the monthly stakeholder meeting. | Python, Power BI, internal audit |
 
 ## Images / Imagens
 
@@ -27,7 +28,11 @@ As imagens em [`assets/`](assets) são ilustrações com **dados fictícios**. O
 
 ## Skills
 
-Python · FastAPI · TypeScript · Next.js · SQL · AI agents · prompt engineering · REST APIs · automated testing · CI · Docker · Linux · security (least privilege) · ERP integration · data analysis · internal audit and controls
+Python · SQL · Power BI · AI agents · FastAPI · TypeScript · Next.js · prompt engineering · REST APIs · automated testing · CI · Docker · Linux · security (least privilege) · ERP integration · data analysis · internal audit and controls · credit risk
+
+## Learning
+
+Agentic AI (DeepLearning.AI) · Python with AI (Udemy) · Forward Deployed Engineer (Udemy, in progress)
 
 ## License
 
