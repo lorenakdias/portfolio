@@ -32,7 +32,7 @@ Python · SQL · Power BI · AI agents · FastAPI · TypeScript · Next.js · pr
 
 ## Learning
 
-Agentic AI (DeepLearning.AI) · Python with AI (Udemy) · Forward Deployed Engineer (Udemy, in progress)
+AI Python for Beginners (DeepLearning.AI) · Agentic AI (Udemy) · Forward Deployed Engineer (Udemy, in progress)
 
 ## License
 
