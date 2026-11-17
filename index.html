@@ -99,6 +99,25 @@ svg text{font-family:var(--body)}
 }
 @media (max-width:460px){.kpis{grid-template-columns:1fr 1fr}.kpi:last-child{display:none}}
 </style>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lorena Kapitzky Portfolio">
+<meta property="og:description" content="Applied AI for business: finance, data and AI agents. ERP-integrated dashboard, a 5-agent AI team, audit automation with Python and Power BI.">
+<meta property="og:url" content="https://lorenakdias.github.io/portfolio/">
+<meta property="og:image" content="https://lorenakdias.github.io/portfolio/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+.principles{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px;border-top:1px solid var(--line);padding-top:32px}
+.principles .eyebrow{grid-column:1/-1}
+.principles h3{font-size:.95rem;margin-bottom:8px}
+.principles p{font-size:.92rem;color:var(--muted)}
+.contact{background:var(--accent-soft);border-radius:12px;padding:32px;display:grid;gap:14px}
+.contact h2{font-size:clamp(1.4rem,2.6vw,1.9rem)}
+.contact .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px}
+.contact a{font-family:var(--mono);font-size:.85rem;color:var(--bg);background:var(--accent);padding:8px 14px;border-radius:6px;text-decoration:none}
+.contact a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+</style>
 </head>
 <body>
 
@@ -369,14 +388,31 @@ svg text{font-family:var(--body)}
   </figure>
 </section>
 
+<section class="principles" aria-label="How I work">
+  <div class="eyebrow">How I work</div>
+  <div><h3>Rules where it must be exact</h3><p>Fixed rules for what has to be right every time, like what counts as a sale or how a payment matches an invoice. AI only where judgment helps.</p></div>
+  <div><h3>Two checks on every AI output</h3><p>First the format: required fields present and well formed. Then the business rules: the numbers have to make sense. Anything that fails goes to a person.</p></div>
+  <div><h3>The system prepares, people approve</h3><p>Automations draft, match and flag. A person reviews and decides, and the history stays recorded.</p></div>
+  <div><h3>Measure the whole job</h3><p>I start with a small proof of concept on real cases and measure accuracy and the review work left for the team, not just the model's hit rate.</p></div>
+</section>
+
 <section class="skills" aria-label="Skills">
-  <div><h3>Desenvolvimento</h3><p>Python, FastAPI, TypeScript, Next.js, React, APIs REST, automated tests, Git e CI.</p></div>
+  <div><h3>Development</h3><p>Python, FastAPI, TypeScript, Next.js, React, REST APIs, automated testing, Git and CI.</p></div>
   <div><h3>Data</h3><p>SQL, MySQL, SQLite, ERP integration, data modeling and analysis, dashboards.</p></div>
   <div><h3>AI</h3><p>Agent orchestration, prompt engineering, cost-aware model selection, reviewing AI-generated code.</p></div>
   <div><h3>Infrastructure and security</h3><p>Docker, Linux, Tailscale, firewalls, least privilege, backups and leak audits.</p></div>
 <div><h3>Finance and audit</h3><p>Internal audit, internal controls, risk assessment, credit risk, accounts receivable, public procurement.</p></div>
   <div><h3>Learning</h3><p>Agentic AI (DeepLearning.AI), Python with AI (Udemy), Forward Deployed Engineer (Udemy, in progress).</p></div>
 </section>
+
+<section class="contact" aria-label="Contact">
+  <div class="eyebrow">Open to work</div>
+  <h2>Forward Deployed, Solutions and Implementation roles</h2>
+  <p>In AI, fintech and B2B software. Remote or in the EU: I'm an Italian citizen, no visa needed.</p>
+  <div class="links"><a href="https://linkedin.com/in/lorenakdias">LinkedIn</a><a href="https://github.com/lorenakdias">GitHub</a><a href="pt/">Versão em português</a></div>
+</section>
+
+
 
 <p class="note">All screens and messages on this page use sample data. The real systems run on a private network and hold confidential company data.</p>
 
